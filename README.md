@@ -1,13 +1,3 @@
-<title>Sign Language Recognition</title>
-<style>
-    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
-    h1, h2, h3 { color: #2c3e50; }
-    code { background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; }
-    pre { background-color: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
-    ul { list-style-type: none; }
-    li { margin: 5px 0; }
-    .project-structure { font-family: monospace; white-space: pre; background-color: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
-</style>
 <h1>Sign Language Recognition</h1>
 
 <h2>Overview</h2>
