@@ -27,23 +27,25 @@
 
 <h2>Project Structure</h2>
 
+<h2>Project Structure</h2>
+
 <pre>
-Sign Language                  <!-- Directory of the project -->
-├── __pycache__/               <!-- Cache directory -->
-├── .ipynb_checkpoints/        <!-- Jupyter notebook checkpoints -->
-├── .pytest_cache/             <!-- Pytest cache -->
-├── .venv/                     <!-- Virtual environment directory -->
-├── .vscode/                   <!-- VSCode configuration files -->
-├── myvenv/                    <!-- Additional virtual environment directory -->
-├── SignImage48x48/           <!-- Directory for sign language images (48x48 resolution) -->
-├── splitdataset48x48/         <!-- Directory for split dataset (48x48 resolution) -->
-├── collectdata.py             <!-- Script to collect sign language data -->
-├── split.py                   <!-- Script to split dataset for training and testing -->
-├── realtimedetection.py       <!-- Script for real-time detection of sign language -->
-├── requirements.txt           <!-- Required Python packages and dependencies -->
-├── signlanguagedetectionmodel48x48.h5  <!-- Pretrained model in H5 format -->
-├── signlanguagedetectionmodel48x48.json <!-- Model architecture in JSON format -->
-└── README.md                  <!-- Project documentation (this file) -->
+Sign Language                  - Directory of the project
+├── __pycache__/               - Cache directory
+├── .ipynb_checkpoints/        - Jupyter notebook checkpoints
+├── .pytest_cache/             - Pytest cache
+├── .venv/                     - Virtual environment directory
+├── .vscode/                   - VSCode configuration files
+├── myvenv/                    - Additional virtual environment directory
+├── SignImage48x48/           - Directory for sign language images (48x48 resolution)
+├── splitdataset48x48/         - Directory for split dataset (48x48 resolution)
+├── collectdata.py             - Script to collect sign language data
+├── split.py                   - Script to split dataset for training and testing
+├── realtimedetection.py       - Script for real-time detection of sign language
+├── requirements.txt           - Required Python packages and dependencies
+├── signlanguagedetectionmodel48x48.h5  - Pretrained model in H5 format
+├── signlanguagedetectionmodel48x48.json - Model architecture in JSON format
+└── README.md                  - Project documentation (this file)
 </pre>
 
 
