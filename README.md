@@ -22,28 +22,27 @@
     <li>Python: Core programming language for development.</li>
     <li>OpenCV: For capturing and processing video streams.</li>
     <li>TensorFlow/Keras: Used to train and deploy the deep learning models.</li>
-    <li>Flask/Django: Backend for the web application (optional if applicable).</li>
     <li>Numpy, Pandas, Matplotlib: Data processing and visualization.</li>
 </ul>
 
 <h2>Project Structure</h2>
 <div class="project-structure">
-    ├── Sign Language                # Directory of the project <br>
-    │   ├── __pycache__/             # Cache directory <br>
-    │   ├── .ipynb_checkpoints/      # Jupyter notebook checkpoints <br>       
-    │   ├── .pytest_cache/           # Pytest cache  <br>
-    │   ├── .venv/                   # Virtual environment directory <br>
-    │   ├── .vscode/                 # VSCode configuration files <br>
-    │   ├── myvenv/                  # Additional virtual environment directory <br>
-    │   ├── SignImage48x48/          # Directory for sign language images (48x48 resolution) <br>
-    │   ├── splitdataset48x48/       # Directory for split dataset (48x48 resolution) <br>
-    │   ├── collectdata.py           # Script to collect sign language data <br>
-    │   ├── split.py                 # Script to split dataset for training and testing <br>
-    │   ├── realtimedetection.py     # Script for real-time detection of sign language <br>
-    │   ├── requirements.txt         # Required Python packages and dependencies <br>
-    │   ├── signlanguagedetectionmodel48x48.h5  # Pretrained model in H5 format <br>
-    │   ├── signlanguagedetectionmodel48x48.json # Model architecture in JSON format <br>
-    └── README.md                    # Project documentation (this file)
+    ├── Sign Language                                                                  # Directory of the project <br>
+    │   ├── __pycache__/                                                               # Cache directory <br>
+    │   ├── .ipynb_checkpoints/                                                        # Jupyter notebook checkpoints <br>       
+    │   ├── .pytest_cache/                                                             # Pytest cache  <br>
+    │   ├── .venv/                                                                     # Virtual environment directory <br>
+    │   ├── .vscode/                                                                   # VSCode configuration files <br>
+    │   ├── myvenv/                                                                    # Additional virtual environment directory <br>
+    │   ├── SignImage48x48/                                                            # Directory for sign language images (48x48 resolution) <br>
+    │   ├── splitdataset48x48/                                                         # Directory for split dataset (48x48 resolution) <br>
+    │   ├── collectdata.py                                                             # Script to collect sign language data <br>
+    │   ├── split.py                                                                   # Script to split dataset for training and testing <br>
+    │   ├── realtimedetection.py                                                       # Script for real-time detection of sign language <br>
+    │   ├── requirements.txt                                                           # Required Python packages and dependencies <br>
+    │   ├── signlanguagedetectionmodel48x48.h5                                         # Pretrained model in H5 format <br>
+    │   ├── signlanguagedetectionmodel48x48.json                                       # Model architecture in JSON format <br>
+    └── README.md                                                                      # Project documentation (this file)
 </div>
 
 <h2>Installation</h2>
